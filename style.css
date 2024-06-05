@@ -1,0 +1,72 @@
+::placeholder {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.container {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerXSLyIQQLdskn41dy8ysxGgq7DmEXTt9Aw&s');
+    max-width: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(187, 209, 164);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.weather-info img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.weather-info p {
+    margin: 0;
+
+}
+button{
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: aqua;
+    font-size: 20PX;
+    border: 2px solid red;
+}
+
+input{
+    border: 2px solid red;
+
+    border-radius: 10px;
+    height: 35px;
+    width: 190px;
+    background-color: aqua;
+    font-size: 20PX;
+}
+button:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    background-color: rgb(0, 204, 255);
+    color: antiquewhite;
+}
